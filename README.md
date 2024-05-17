@@ -38,9 +38,29 @@ You'll need to set up access to the YouTube Data AP to use the notebooks in this
 
 ```bash
 git clone https://github.com/nadia-maarfavi/YouTube.Data.Scraper.git
-
+```
 **3. Install Required Libraries:**
 
 Ensure you have the necessary Python libraries installed. You can install them using:
 ```bash
 pip install -r requirements.txt
+```
+
+**4. Update API Key:**
+In each notebook, replace YOUR_API_KEY_HERE with your actual YouTube Data API key.
+
+## Usage
+Open the Jupyter notebook you want to run (e.g., YouTubeChanel.ipynb).
+Follow the instructions in the notebook to input the necessary parameters (e.g., channel ID, video ID).
+Execute the cells to retrieve and display the data.
+
+## Contributing
+If you have any suggestions, bug reports, or feature requests, feel free to open an issue or submit a pull request. Contributions are welcome!
+
+## License
+This repository is licensed under the MIT License. See the LICENSE file for more information.
+___
+
+Happy scraping! If you have any questions or need further assistance, please don't hesitate to contact me.
+
+
