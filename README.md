@@ -9,3 +9,31 @@ This notebook contains code to retrieve information about a specific YouTube cha
 - Find out the date the channel was launched
 - Determine the total number of videos on the channel
 - Extract the names of all videos from the channel
+
+### 2. GetLike.ipynb
+This notebook provides code to fetch various metrics for YouTube videos. It enables you to:
+
+- Retrieve the number of likes for a video
+- Get the view count for a video
+- Obtain other relevant metrics associated with the video
+
+### 3. GetComments.ipynb
+This notebook includes code to extract comments from YouTube videos. Additionally, it allows you to:
+
+- Extract the text of each comment
+- Determine the number of replies each comment has received
+- Find out the number of likes each comment has garnered
+
+## Getting Started
+You'll need to set up access to the YouTube Data AP to use the notebooks in this repository. Follow these steps to get started:
+
+1. Obtain API Key:
+
+- Go to the Google Developers Console.
+- Create a new project or select an existing project.
+- Enable the YouTube Data API for your project.
+- Create credentials (API Key) for accessing the API.
+  
+2. Clone the Repository:
+   git clone https://github.com/yourusername/your-repository-name.git
+
