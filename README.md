@@ -27,13 +27,20 @@ This notebook includes code to extract comments from YouTube videos. Additionall
 ## Getting Started
 You'll need to set up access to the YouTube Data AP to use the notebooks in this repository. Follow these steps to get started:
 
-1. Obtain API Key:
+**1. Obtain API Key:**
 
-- Go to the Google Developers Console.
+- Go to the [Google Developers Console](https://console.developers.google.com/).
 - Create a new project or select an existing project.
 - Enable the YouTube Data API for your project.
 - Create credentials (API Key) for accessing the API.
-  
-2. Clone the Repository:
-   git clone https://github.com/yourusername/your-repository-name.git
 
+**2. Clone the Repository:**
+
+```bash
+git clone https://github.com/nadia-maarfavi/YouTube.Data.Scraper.git
+
+**3. Install Required Libraries:**
+
+Ensure you have the necessary Python libraries installed. You can install them using:
+```bash
+pip install -r requirements.txt
